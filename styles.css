@@ -15,10 +15,6 @@ body {
   color: #00ff22;
 }
 
-.index {
-    width: 90%;
-}
-
 header {
   background-color: #1b2218bb;
   border: 2px solid #00ff22;
@@ -123,4 +119,13 @@ h3 {
 p {
   font-size: 15px;
   text-align: center;
+}
+
+/*For Smaller Screens*/
+
+@media screen and (max-width: 800px) {
+.box {
+  flex-direction: column;
+}
+
 }
