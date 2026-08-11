@@ -94,6 +94,7 @@ ul li a:active {
   border-radius: 25pt;
   margin: 1%;
   padding: 1%;
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
