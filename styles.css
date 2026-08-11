@@ -28,6 +28,20 @@ header {
   text-align: center;
 }
 
+a {
+  background-color: #1b2218bb;
+  color: #00ff22;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #40a84e;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
 ul {
   background-color: #1b2218bb;
   border: 2px solid #00ff22;
@@ -41,6 +55,7 @@ ul {
 
 ul li a {
   display: block;
+  background-color: transparent;
   color: #00ff22;
   text-align: center;
   padding: 14px 16px;
@@ -71,7 +86,6 @@ ul li a:active {
   margin: 1%;
   padding: 1%;
   text-align: center;
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
