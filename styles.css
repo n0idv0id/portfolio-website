@@ -21,7 +21,6 @@ header {
   border-radius: 25pt;
   margin: 1%;
   padding: 1%;
-  text-align: center;
 }
 
 a {
@@ -96,10 +95,6 @@ ul li a:hover {
   align-items: center;
 }
 
-div h2 {
-  text-align: center;
-}
-
 footer  {
   background-color: #1b2218bb;
   border: 2px solid #00ff22;
@@ -115,22 +110,17 @@ footer  {
 
 h1 {
   font-size: 35px;
-  text-align: center;
+  margin: 10px;
 }
 
 h2 {
   font-size: 20px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 17px;
-  text-align: center;
+  margin: 5px;
 }
 
 p {
   font-size: 15px;
-  text-align: center;
+  margin: 5px;
 }
 
 /*For Smaller Screens*/
