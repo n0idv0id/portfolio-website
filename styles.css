@@ -38,6 +38,10 @@ a:hover {
   color: #ffffff;
 }
 
+.footer_link {
+  background-color: transparent;
+}
+
 ul {
   background-color: #1b2218bb;
   border: 2px solid #00ff22;
@@ -126,6 +130,14 @@ p {
 @media screen and (max-width: 800px) {
 .box {
   flex-direction: column;
+}
+
+.mobile_block {
+  display: block
+}
+
+.mobile_none {
+  display: none;
 }
 
 }
