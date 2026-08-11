@@ -79,11 +79,6 @@ ul li a:hover {
   color: #1b2218;
 }
 
-ul li a:active {
-  background-color: #ffffff;
-  color: #1b2218;
-}
-
 .box {
   display: flex;
   justify-content: space-between;
@@ -115,6 +110,12 @@ footer  {
   color: #00ff22;
 }
 
+.footer_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 h1 {
   font-size: 35px;
   text-align: center;
@@ -139,6 +140,10 @@ p {
 
 @media screen and (max-width: 800px) {
 .box {
+  flex-direction: column;
+}
+
+.footer_div {
   flex-direction: column;
 }
 
