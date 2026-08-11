@@ -108,9 +108,6 @@ footer  {
   padding: 1%;
   text-align: center;
   color: #00ff22;
-}
-
-.footer_div {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -143,7 +140,7 @@ p {
   flex-direction: column;
 }
 
-.footer_div {
+footer {
   flex-direction: column;
 }
 
