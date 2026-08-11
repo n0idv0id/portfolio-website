@@ -50,7 +50,8 @@ ul {
   margin: 1%;
   padding: 1%;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 ul li a {
@@ -138,14 +139,6 @@ p {
 @media screen and (max-width: 800px) {
 .box {
   flex-direction: column;
-}
-
-.mobile_block {
-  display: block
-}
-
-.mobile_none {
-  display: none;
 }
 
 }
