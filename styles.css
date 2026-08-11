@@ -25,7 +25,7 @@ header {
 
 a {
   background-color: #1b2218bb;
-  color: #00ff22;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ a:visited {
 }
 
 a:hover {
-  color: #ffffff;
+  color: #ffe600;
 }
 
 .footer_link {
