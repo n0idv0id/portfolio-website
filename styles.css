@@ -72,6 +72,10 @@ ul li a {
   margin-left: 0.2em;
 }
 
+ul li a:visited {
+  color: #00a015;
+}
+
 ul li a:hover {
   background-color: #00ff22;
   border-radius: 25pt;
