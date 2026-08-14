@@ -25,16 +25,16 @@ header {
 
 a {
   background-color: #1b2218bb;
-  color: #ffffff;
+  color: #ffe600;
   text-decoration: none;
 }
 
 a:visited {
-  color: #40a84e;
+  color: #ff7b00;
 }
 
 a:hover {
-  color: #ffe600;
+  color: #ffffff;
 }
 
 .footer_link {
